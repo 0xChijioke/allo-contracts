@@ -7,7 +7,7 @@
   },
   "scripts": {
     "compile": "pnpm hardhat compile",
-    "build": "pnpm compile",
+    "build": "node api.js && pnpm compile",
     "clean": "pnpm hardhat clean",
     "test": "pnpm hardhat test",
     "coverage": "pnpm hardhat coverage",
